@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index in html</title>
+    <style>
+        h1 {
+            text-align: center;
+            font-weight: bold;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        body {
+            background-color: rgb(0, 204, 255);
+        }
+
+        ul {
+            background-color: green;
+            padding: 10px;
+            margin: 0px;
+            border-radius: 10px;
+
+        }
+
+        ul li {
+            text-decoration: none;
+            display: inline;
+            border: 1px solid green;
+        }
+
+        li a {
+            text-decoration: none;
+            color: white;
+            padding: 20px;
+            margin: 30px;
+            font-weight: bold;
+
+        }
+
+        li a:hover {
+            background-color: green;
+        }
+
+
+
+        div {
+            border-radius: 20px;
+            width: 100%;
+            height: 100%;
+        }
+
+        /* Slideshow container */
+        .slideshow-container {
+            max-width: 100%;
+            position: relative;
+            margin: auto;
+        }
+
+        /* Next & previous buttons */
+        .prev,
+        .next {
+            cursor: pointer;
+            position: absolute;
+            top: 50%;
+            width: auto;
+            padding: 16px;
+            margin-top: -22px;
+            color: white;
+            font-weight: bold;
+            font-size: 18px;
+            transition: 0.6s ease;
+            border-radius: 0 3px 3px 0;
+            user-select: none;
+        }
+
+        /* Position the "next button" to the right */
+        .next {
+            right: 0;
+            border-radius: 3px 0 0 3px;
+        }
+
+        /* On hover, add a black background color with a little bit see-through */
+        .prev:hover,
+        .next:hover {
+            background-color: rgba(0, 0, 0, 0.8);
+        }
+
+        /* Number text (1/3 etc) */
+        .numbertext {
+            color: #f2f2f2;
+            font-size: 12px;
+            padding: 8px 12px;
+            position: absolute;
+            top: 0;
+        }
+
+        /* The dots/bullets/indicators */
+        .dot {
+            cursor: pointer;
+            height: 15px;
+            width: 15px;
+            margin: 0 2px;
+            background-color: #bbb;
+            border-radius: 50%;
+            display: inline-block;
+            transition: background-color 0.6s ease;
+        }
+
+        .active,
+        .dot:hover {
+            background-color: #717171;
+        }
+
+        /* Fading animation */
+        .fade {
+            animation-name: fade;
+            animation-duration: 1.5s;
+        }
+
+        @keyframes fade {
+            from {
+                opacity: .4
+            }
+
+            to {
+                opacity: 1
+            }
+        }
+
+        /* On smaller screens, decrease text size */
+        @media only screen and (max-width: 300px) {
+
+            .prev,
+            .next,
+            .text {
+                font-size: 11px
+            }
+        }
+
+        body {
+            font-family: poppins;
+            margin: 0;
+            display: grid;
+            font-size: 14px;
+        }
+
+        . {
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+            box-sizing: border-box;
+        }
+
+        .footer {
+            margin-top: 10%;
+            width: 100%;
+            padding: 100px 15%;
+            background-color: #333;
+            color: #efefef;
+            display: flex;
+            color: black;
+            height: 160px;
+        }
+        .footer div h3 {
+            font-weight: 100;
+            letter-spacing: 1px;
+
+        }
+
+        .col-1 a {
+            display: block;
+            text-decoration: none;
+            color: #efefef;
+            margin-bottom: 10px;
+        }
+
+        form input {
+            width: 400px;
+            height: 45px;
+            border-radius: 4px;
+            text-align: center;
+            margin-top: 20px;
+            /* margin-bottom: 40px; */
+            /* outline: none; */
+            border: none;
+        }
+
+        form button {
+            background: transparent;
+            border: 2px solid #fff;
+            color: #fff;
+            border-radius: 30px;
+            padding: 10 30px;
+            font-size: 10px;
+            cursor: pointer;
+        }
+
+        .button {
+            font-weight: bold;
+            /* font-size: larger; */
+            color: black;
+            background-color: white;
+            position: fixed;
+        }
+
+        div img h1 {
+            text-shadow: #333;
+            text-align: left;
+            font-weight: bold;
+            text-transform: none;
+            /* flex-direction: column; */
+
+        }
+        [1:01 PM, 12/12/2022] Akarsh Bhai polytecnic: <nav>
+        <div id="tt">
+          <img src="image/Untitled_4-removebg-preview.png" alt="logo" srcset="">
+
+          
+        </div>
+        <input type="checkbox" id="click">
+        <label for="click" class="menu-btn">
+        <i class="fas fa-bars"></i>
+        </label>
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+           <li><a href="order.html">ORDER</a></li>
+           <li><a href="about.html">ABOUT</a></li>
+           <li><a href="contact.html">CONTACT</a></li>
+           
+   
+           
+        </ul>
+     </nav>
+[1:02 PM, 12/12/2022] Akarsh Bhai polytecnic: nav{
+  display: flex;
+  height: 90px;
+  width: 100%;
+  background-color: black ;
+  align-items: center;
+  justify-content:space-around;
+  padding: 0 50px 0 100px;
+  flex-wrap: wrap;
+ 
+  
+
+  
+}
+
+nav .logo{
+   
+  
+  
+  
+}
+
+
+
+nav ul{
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+nav ul li{
+  margin: 0 5px;
+}
+nav ul li a{
+  color: #f2f2f2;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 8px 15px;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  transition: all 0.3s linear;
+  
+
+  
+  
+}
+nav ul li a.active,
+nav ul li a:hover{
+  color: cyan;
+  background: black;
+  flex-direction: column;
+  
+}
+nav .menu-btn i{
+  color: #fff;
+  font-size: 22px;
+  cursor: pointer;
+  display: none;
+
+}
+
+
+
+input[type="checkbox"]{
+  display: none;
+  
+}
+@media (max-width: 1000px){
+  nav{
+    padding: 0 40px 0 50px;
+
+  }
+}
+@media (max-width: 920px) {
+  nav .menu-btn i{
+    display: block;
+    flex-direction: column;
+    
+  }
+  #click:checked ~ .menu-btn i:before{
+    content: "\f00d";
+    
+  }
+  nav ul{
+    position: fixed;
+    top: 80px;
+    left: -100%;
+    background: #111;
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    display: block;
+    transition: all 0.3s ease;
+
+    
+  }
+  #click:checked ~ ul{
+    left: 0;
+    
+  }
+  nav ul li{
+    width: 100%;
+    margin: 40px 0;
+    
+  }
+  nav ul li a{
+    width: 100%;
+    margin-left: -100%;
+    display: block;
+    font-size: 20px;
+    transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    
+  }
+  #click:checked ~ ul li a{
+    margin-left: 0px;
+    
+  }
+  nav ul li a.active,
+  nav ul li a:hover{
+    background: none;
+    color: cyan;
+    
+  }
+  
+}
+    </style>
+</head>
+
+<body>
+    <h1>Government polytecnic college Bhagalpur,Bihar</h1>
+    <nav>
+       
+        <input type="checkbox" id="click">
+        <label for="click" class="menu-btn">
+        <i class="fas fa-bars"></i>
+        </label>
+       
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+           <li><a href="order.html">ORDER</a></li>
+           <li><a href="about.html">ABOUT</a></li>
+           <li><a href="contact.html">CONTACT</a></li>
+           <li><a href="contact.html">CONTACT</a></li>
+           <li><a href="contact.html">CONTACT</a></li>
+           <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+     </nav>
+    <h2>Department of Science and Technology, Government of Bihar, <br>
+        Affiliated to State Board of Technical Education, Bihar, Patna, <br>
+        Established 1955, <br>
+        Barari, Bhagalpur, Bihar 812003</h2>
+   <br><br>
+    <div class="image">
+        <img src="ri.jpg" alt="college" width="100%" height="500px">
+    </div>
+    </div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit accusamus excepturi fugiat itaque eos. Unde
+        iste, sunt velit voluptatum ullam dicta magni ipsa voluptatem incidunt soluta autem voluptates architecto
+        necessitatibus aliquid suscipit amet repudiandae harum dolorum sapiente deleniti. Veritatis possimus repudiandae
+        dolores optio, reprehenderit ad tempore corporis consectetur debitis delectus dolore iusto maxime aperiam
+        facilis quae iure, voluptatum facere fugit consequuntur distinctio temporibus dolorum reiciendis odit?
+        Similique, pariatur quae totam, odio cumque modi quos ipsum quia, accusantium quas dolore obcaecati et vitae
+        error consequatur voluptates veritatis culpa aut placeat est alias facere possimus! Consectetur numquam eum
+        ipsam nostrum dolorum, in ipsa soluta praesentium reiciendis hic architecto illum esse doloremque facilis
+        accusamus suscipit inventore possimus sed quidem deleniti vero accusantium maiores? Iste quod at ipsam
+        laudantium sed, consequatur quas? Modi mollitia quod dolorem enim. Vitae soluta dicta dolorem odio, tempora,
+        quod cumque ipsum autem dignissimos fuga est quas eveniet atque quae molestias, debitis mollitia ducimus itaque
+        dolorum assumenda? Eveniet minus quaerat, sapiente tempora dolore repudiandae magnam dolorem excepturi illum
+        architecto harum nemo ea velit facere eos deleniti esse quos incidunt. Accusantium cum vel quisquam quo illum
+        explicabo doloribus fuga temporibus saepe ratione placeat dolorem eos, repellendus porro impedit voluptate
+        maiores officiis. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet voluptatem eos molestiae
+        unde perspiciatis? Itaque harum error nobis suscipit consequatur quo cumque quam ducimus architecto porro?
+        Necessitatibus totam voluptas consequuntur soluta maxime ipsa earum corrupti eos magni aut voluptates nemo,
+        optio dolorum praesentium sapiente suscipit. Aperiam veniam reprehenderit necessitatibus rem! Eveniet sed
+        corrupti enim repellat delectus incidunt id omnis. Ullam nesciunt fuga, reprehenderit quo mollitia quae dicta
+        nihil quia illum, eius pariatur incidunt inventore. Exercitationem, maiores quis similique quasi fuga aperiam
+        dicta vel iure voluptates quisquam ut consequatur ad explicabo autem repudiandae iste aliquam officia. Impedit
+        magnam quae sint praesentium.</p>
+
+    \ <div class="footer">
+        <div class="col-1">
+            <h3>Quick Link</h3>
+            <a href="#">BCECEB</a>
+            <a href="#">Semester Exam Result </a>
+            <a href="#">Student Qustion Bank</a>
+            <a href="#">Syllabus</a>
+            <a href="#">Notice Archives</a>
+            <a href="#">DST Bihar</a>
+            <a href="#">Online Fee Payment</a>
+            <a href="#">Gallery</a>
+        </div>
+        <div class="col-1">
+            <h3>Useful Link for Student</h3>
+            <a href="#">AICTE</a>
+            <a href="#">Bihar Skill Development</a>
+            <a href="#">Mission (BSDM)</a>
+            <a href="#">National Apprenticeship</a>
+            <a href="#">Training Scheme</a>
+            <a href="#">National Creear srvice</a>
+            <a href="#">NPTEL</a>
+            <a href="#">S.B.T.E.Patna</a>
+        </div>
+        <div class="col-1">
+            <h3>Contact Us</h3>
+            <a href="#">Government polytecnic Bhagalpur,Brari,<br> Bhagalpur 8012003 Bihar,<br> Contact: 6200580619</a>
+            <a href="#">Whatsapp Link</a>
+
+        </div>
+
+    </div>
+    </div>
+</body>
+
+</html>
